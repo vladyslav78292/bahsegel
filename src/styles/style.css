@@ -94,7 +94,7 @@ tr,td {
   text-align: center;
   display: flex;
 	align-items: center;
-	justify-content: end;
+	justify-content: center;
   width: 100%;
 }
 
@@ -280,7 +280,7 @@ tr,td {
 }
 
 .content {
-	font-size: 18px;
+	font-size: 15px;
 	display: flex;
 	flex-direction: column;
 	margin-left: -20px;
@@ -429,8 +429,6 @@ img {
   margin-top: 53px;
 	overflow: auto;
   border-radius: 17px;
-	margin-left: -124px;
-	margin-right: -144px;
 }
 
 .table-row:last-of-type {
@@ -520,12 +518,12 @@ img {
 .fourth-table-description {
   min-width: 230px;
 	position: relative;
-	right: 150px;
+	right: 50px;
 }
 
 @media (max-width: 1024px) {
 	.fourth-table-description {
-		right: 30px;
+		right: 0px;
 	}	
 }
 
@@ -994,11 +992,6 @@ img {
 		margin-left: 116px;
 		margin-right: 99px;
 	}
-
-	.table {
-		width: calc(100% + 183px);
-		margin-left: -100px;
-	}
 }
 
 @media (max-width: 768px) {
@@ -1077,9 +1070,12 @@ img {
 }
 
 .bettilt__games {
-	width: 100%;
+	width: 75%;
 	border-radius: 17px;
 	margin-top: 30px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 @media (max-width: 1200px) {
