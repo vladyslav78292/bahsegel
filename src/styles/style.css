@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 	color: #121212;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -483,14 +484,14 @@ img {
 }
 
 .fourth-table-description {
-  min-width: 100px;
+  min-width: 230px;
 	position: relative;
 	right: 150px;
 }
 
 @media (max-width: 1024px) {
 	.fourth-table-description {
-		right: 100px;
+		right: 30px;
 	}	
 }
 
@@ -546,7 +547,7 @@ img {
 .fourth__table-row {
   white-space: nowrap;
   width: auto;
-  min-width: 580px;
+  min-width: 650px;
 }
 
 .table-title--alone {
