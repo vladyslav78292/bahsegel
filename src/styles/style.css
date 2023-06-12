@@ -1058,6 +1058,7 @@ img {
 }
 
 .signup__image {
+	border-radius: 17px;
 	width: 300px;
 	height: 580px;
 }
@@ -1070,12 +1071,14 @@ img {
 	width: 70%;
 	margin-top: 30px;
 	position: relative;
+	border-radius: 17px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .bettilt__games {
 	width: 100%;
+	border-radius: 17px;
 	margin-top: 30px;
 }
 
