@@ -1090,10 +1090,33 @@ img {
 	transform: translateX(-50%);
 }
 
+.content__image {
+	width: 60%;
+	height: 70%;
+	border-radius: 17px;
+}
+
+.content__container {
+	justify-content: space-between;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
 @media (max-width: 1200px) {
 	.signup-container {
 		flex-direction: column;
-		align-items: center;
+		align-items: start;
+	}
+
+	.content__container {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.content__image {
+		align-self: center;
 	}
 }
 
