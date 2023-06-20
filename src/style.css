@@ -364,8 +364,8 @@ tr,td {
 }
 
 .person__photo {
-  height: 183px;
-  width: 183px;
+  height: 110px;
+  width: 110px;
   border-radius: 50%;
 	color: white;
 }
